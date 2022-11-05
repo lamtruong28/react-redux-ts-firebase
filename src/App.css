@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+body .ant-descriptions-bordered .ant-descriptions-item-label,
+body .ant-descriptions-bordered .ant-descriptions-item-content{
+  padding: 8px;
+}
+
+.wrap-dob {
+  padding: 4px !important;
+}
+
+.wrap-info {
+  padding: 8px 16px 16px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.btn-delete,
+.btn-edit {
+  cursor: pointer;
+  padding: 6px;
+}
